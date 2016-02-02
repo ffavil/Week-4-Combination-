@@ -9,6 +9,12 @@ $('button')
     $(this).text((parseInt($(this).text()) + 1) % 10);
     // Check the combination
     checkcombo();
+
+  if ($('one' == 2)) { $('.dial').css('background-color', 'blue');
+  }
+
+
+
   });
 
 var checkcombo = function() {
@@ -18,8 +24,7 @@ var checkcombo = function() {
   // if any two numbers are correct, the background should be #e3cb67
   // If any three numbers are correct, the background should be #bcdd4e
 
-
-
-
+  
 
 };
+
